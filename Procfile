@@ -1,0 +1,1 @@
+web: python manage.py && python manage.py collectstatic --noinput && guinicorn config.wsgi21
